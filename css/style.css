@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+
+/*------------Reusable code---------*/
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/*--------------navgiation part---------------*/
+
+.logo,
+.main-nav {
+    float: left;
+    vertical-align: middle;
+    font-style: bold;
+    font-weight: 900;
+}
+
+.logo {
+    font-size: 25px;
+    margin-top: 30px;
+    background: linear-gradient(to left, rgba(255, 147, 6, 0.823), rgba(246, 80, 255, 0.938), rgba(209, 6, 255, 0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-nav {
+    margin-top: 37px;
+    font-size: 18px;
+}
+
+.main-nav li {
+    display: inline-block;
+    list-style: none;
+    padding-left: 65px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #b1b0b0;
+    transition: color 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #2e2e2e;
+}
+
+.main-nav li a.active {
+    color: #2e2e2e;
+}
+
+
+/*---------------Text---------*/
+
+h1 {
+    font-size: 230%;
+    color: #2e2e2e;
+    line-height: 130%;
+    font-weight: 800;
+}
+
+p {
+    font-size: 90%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: #2e2e2e;
+    line-height: 1.6;
+    margin-top: 40px;
+}
+
+.main-text {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+    transform: translate(-42%, -28%);
+    font-style: bold;
+}
+
+
+/*----------Buttons---------*/
+
+.btn {
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    float: right;
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgb(141, 55, 123, 0.7), rgb(208, 73, 148, 0.7), rgb(255, 151, 89, 0.7));
+    transition: background-image 0.5s;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-image: linear-gradient(to right, rgb(255, 151, 89, 0.7), rgb(208, 73, 148, 0.7), rgb(141, 55, 123, 0.7));
+}
+
+.button {
+    margin-top: 50px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid rgb(228, 227, 227);
+    padding: 10px 50px 10px 60px;
+    font-size: 16px;
+    text-align: center;
+    background: linear-gradient(to left, rgb(255, 151, 89, 0.7), rgb(208, 73, 148, 0.7), rgb(141, 55, 123, 0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    transition: background-image 0.2s;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-image: linear-gradient(to left, rgb(141, 55, 123, 0.7), rgb(208, 73, 148, 0.7), rgb(255, 151, 89, 0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-nav li .active {
+    color: black;
+}
+
+
+/*-----------icons----------*/
+
+.icon {
+    position: absolute;
+    font-size: 150%;
+    left: 6%;
+    background: linear-gradient(to left, rgb(255, 151, 89, 0.7), rgb(208, 73, 148, 0.7), rgb(141, 55, 123, 0.7));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-nav {
+    position: absolute;
+    bottom: 40px;
+    left: 12%;
+}
+
+.icons {
+    list-style: none;
+}
+
+.icons li {
+    float: left;
+    padding: 0 10px;
+}
+
+.icons li a:link,
+.icons li a:visited {
+    text-decoration: none;
+    color: #b1b0b0;
+    transition: color 0.2s;
+}
+
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+    color: #405DE6;
+}
+
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+    color: #00acee;
+}
+
+.ion-social-youtube:hover,
+.ion-social-youtube:active {
+    color: #FF0000;
+}
+
+
+/*-------------Images---------*/
+
+.main-img img {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    top: 35%;
+    right: -12%;
+    transform: translate(-40%, -18%);
+}
